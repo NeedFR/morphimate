@@ -6,7 +6,7 @@ setup(
     packages=find_packages('src'),
     package_dir={'': 'src'},
     include_package_data=True,
-    package_data={'': ['*.txt', '*.jpg']},
+    package_data={'': ['*.txt', '*.jpg', '*.csv', '*.png']},
     scripts=['src/scripts/morphimate_example_1.py', 'src/scripts/morphimate_example_2.py'],
     install_requires=['numpy', 'scipy', 'PyQtX', 'pillow'],
     author='Richard Masterton',
