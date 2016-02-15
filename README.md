@@ -9,6 +9,23 @@ Morphing library and viewer
 
 The following is an example of creating a morph between two face images.
 
+This will morph between the following two faces:
+
+### Face 1
+
+![Face 1 Image](https://github.com/dramast/morphimate/raw/master/src/morphimate/resources/example/face1.png "Face 1")
+
+### Face 2
+
+![Face 2 Image](https://github.com/dramast/morphimate/raw/master/src/morphimate/resources/example/face2.png "Face 2")
+
+And will product the following output:
+
+### Morphed Output
+
+![Ouput Face](https://github.com/dramast/morphimate/raw/master/src/morphimate/resources/example/morphed.png "Output")
+
+
 ```
 import csv
 import pkg_resources
@@ -31,6 +48,8 @@ midway = Morpher(source, target, 300, 300).morph(0.5, 0.5)
 
 imsave('morphed.jpg', midway)
 ```
+
+
 
 The `MorphimateWidget` class provides a Qt Widget for creating morph animations (See examples below).
 
