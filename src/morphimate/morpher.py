@@ -97,7 +97,7 @@ class Morpher:
         """
         if self.tween_percent <= 0:
             self.source['tweened'] = self.source['last_warped']
-            self.tween_target_warped = self.target['last_warped']
+            self.target['tweened'] = self.target['last_warped']
         elif self.tween_percent >= 1:
             self.source['tweened'] = self.source['warped']
             self.target['tweened'] = self.target['warped']
