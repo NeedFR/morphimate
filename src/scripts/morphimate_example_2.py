@@ -18,7 +18,7 @@ app = QtGui.QApplication(sys.argv)
 
 image_dir = pkg_resources.resource_filename('morphimate', 'resources/images')
 
-morph_widget = MorphimateWidget(FrameGenerator(LabelledImageSupplier(image_dir), morph_steps=50, tweens_per_morph=30), fps=20)
+morph_widget = MorphimateWidget(FrameGenerator(LabelledImageSupplier(image_dir), morph_steps=20, tweens_per_morph=30), fps=50)
 
 main_window = QtGui.QMainWindow()
 main_window.setCentralWidget(morph_widget)
