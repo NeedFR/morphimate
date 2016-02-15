@@ -23,7 +23,7 @@ And will product the following output:
 
 ### Morphed Output
 
-![Ouput Face](https://github.com/dramast/morphimate/raw/master/src/morphimate/resources/example/morphed.png "Output")
+![Ouput Face](https://github.com/dramast/morphimate/raw/master/src/morphimate/resources/example/morphed.jpg "Output")
 
 
 ```
